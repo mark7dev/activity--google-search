@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
+.main_container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.search_bar {
+	display: flex;
+	width: 484px;
+	height: 44px;
+	border-color: rgba(0, 0, 0, 0, 16);
+}
+
+input {
+	width: 100%;
+}
+
+.icono {
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.4);
+	size: 56px 0px;
+	background: white;
+	border: 0;
+}
+
+.container_buttons {
+	display: flex;
+}
+
+.buttons {
+	height: 36px;
+	border-color: #F2F2F2;
+	background: #F2F2F2;
+	font-size: 13px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.4);
+	padding: 0 16px;
+	margin-top: 25px;
+	line-height: 1px;
+}
